@@ -1,0 +1,24 @@
+.work-samples-container {
+  margin-top: 40px;
+}
+.work-list-controls {
+  list-style: none;
+  padding-left: 0;
+}
+.work-list-control-filter {
+  margin-right: 25px;
+  font-size: 17px;
+  text-transform: uppercase;
+  color: #fff;
+  cursor: pointer;
+}
+.mixitup-control-active, .work-filter:hover {color: #f21140; transition: color 0.3s}
+.work-list-control-filter:last-child {margin-right: 0;}
+.work-list-control-filter:last-child {margin-right: 0;}
+.work-list-container {
+  padding: 0;
+  margin-top: 40px;
+}
+.work-list-ard-section {padding: 0;}
+.work-sample-section {margin: 1px;}
+.work-sample-section img {width: 100%;}

@@ -1,0 +1,65 @@
+.section-title {
+  font-size: 32px;
+  text-align: center;
+  font-family: poppins,sans-serif;
+  color: #fff;
+  font-weight: 900;
+}
+.skills-section{padding-top: 80px;}
+.skills-cards-container {padding: 40px 0;}
+.skills-card {
+  font-family: 'Quicksand', sans-serif;
+  text-align: center;
+  margin: 0 0 20px;
+}
+.skills-card-img-section {
+  font-size: 42px;
+  margin-bottom: 2px;
+}
+.skills-card h3 {
+  font-size: 20px;
+  margin-bottom: 5px;
+  color: #fff;
+  font-weight: 600;
+}
+.skills-card p {
+  color: #fff;
+  font-size: 14px;
+}
+.experience-details-card, .experience-info-section, .experience-cards-container{padding: 0;}
+.experience-cards-container {margin: 40px 0 80px;}
+.experience-details-card-icon {
+  font-size: 40px;
+  text-align: center;
+  color: #fff;
+}
+.experience-details-card-content {padding-left: 25px; font-family: 'Quicksand', sans-serif;}
+.experience-details-card-content h3 {
+  color: #f21140;
+  font-weight: 700;
+  font-size: 20px;
+  margin-bottom: 5px;
+  line-height: 1.5;
+}
+.experience-details-card-content ul {
+  list-style: none;
+  padding-left: 0;
+}
+.experience-details-card-content ul li {
+  font-size: 14px;
+  line-height: 1.5;
+  margin-bottom: 15px;
+  font-weight: 400;
+  color: #fff;
+}
+@media (min-width: 768px) {
+  .skills-card h3{font-size: 18px;}
+  .skills-card p {font-size: 14px;font-weight: 100;}
+  .experience-details-card-content h3{font-size: 18px;}
+  .experience-cards-container{padding: 0 0 0 8%;}
+  .experience-details-card{min-height: 87px;}
+}
+@media (min-width: 992px) {
+  .skills-card p {font-size: 14px;font-weight: 100;}
+  .experience-cards-container{padding: 0 0 0 5%;}
+}

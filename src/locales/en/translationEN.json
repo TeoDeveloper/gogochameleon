@@ -1,0 +1,43 @@
+{
+  "overlay_email" : {
+    "thank_you": "Thank you very much ",
+    "message_sent": "Your message has been sent!"
+  },
+  "aboutme_details" : {
+    "part1": "Hi! I am Matteo Marino,",
+    "digital_designer_from": " digital designer since 2009",
+    "part2": ", creative, detail-oriented and founder of ",
+    "part3": ", an agency born with the aim of helping my clients to promote their ideas towards visible and user-friendly digital contents.",
+    "part4": "We use cutting edge technology together with creative thought and media knowledge.",
+    "about_working": "What is it like working with me?"
+  },
+  "menu": {
+    "aboutSection": "About me",
+    "skillsSection": "What I do",
+    "experienceSection": "How I work",
+    "workSection": "Gallery",
+    "reviewsSection": "Reviews",
+    "contactSection": "Contact"
+  },
+  "skillsSection": {
+    "skillsTitle" : "What I do",
+    "worksTitle" : "How I work"
+  },
+  "form": {
+    "sectionTitle": "Get in Contact",
+    "mind" : "Have a project in mind?",
+    "form_email" : "Write below or send me an",
+    "placeholder": {
+      "firstName": "Name*",
+      "email": "Email*",
+      "subject": "Subject",
+      "message": "Message*"
+    },
+    "error": {
+      "name": "Name is required",
+      "email": "Email is required",
+      "message": "Message is required"
+    },
+    "sendLabel": "submit message"
+  }
+}

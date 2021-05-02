@@ -1,0 +1,59 @@
+.reviews-card-section {padding: 10px 0; cursor: grab;}
+.grabbed {cursor: grabbing;}
+.reviews-card {padding-top: 50px;}
+.reviews-card-top-card {
+  margin-bottom: 15px;
+  position: relative;
+}
+.reviews-card-img-quote {
+  position: absolute;
+  left: 12px;
+  top: -12px;
+  color: rgba(242,17,64,.3);
+  font-size: 50px;
+}
+.reviews-card-img-section {
+  width: 100px;
+  height: 100px;
+}
+.reviews-card-title {
+  text-align: center;
+  padding-left: 0;
+}
+.reviews-card-title h3 {
+  font-size: 28px;
+  font-weight: 700;
+  color: #f21140;
+}
+.reviews-card-details-section {
+  padding: 25px 50px;
+  background-color: #fff;
+  border-radius: 25px;
+  text-align: center;
+  border: 1px solid #f1f1f1;
+  box-shadow: 0 5px 10px rgba(0,0,0,0.15);
+}
+.reviews-card-details-section .stars {color: #ffc107;}
+
+.carousel.carousel-slider {
+  padding-bottom: 34px;
+}
+.carousel .control-dots .dot {
+  width: 10px;
+  height: 10px;
+}
+
+@media (min-width: 992px) {
+  .carousel .control-dots {
+    margin: 0;
+    padding: 0;
+  }
+  .carousel.carousel-slider {
+    padding-bottom: 24px;
+  }
+  .reviews-card-img-quote {
+    left: 0;
+    top: -22px;
+    font-size: 60px;
+  }
+}

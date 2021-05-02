@@ -1,0 +1,117 @@
+.overlay{
+  background-color: rgba(10, 10, 10, .97);
+  position: fixed;
+  z-index: 9990;
+}
+.get-in-touch-section {
+  padding: 60px 0;
+  position: relative;
+}
+.get-in-touch-section-container {
+  font-size: 26px;
+  align-items: center;
+}
+.get-in-touch-section-container .send-success {
+  display: block;
+  font-size: 100px;
+  margin: 25px auto 40px;
+}
+.form-list-container {
+  margin-top: 40px;
+  position: relative;
+}
+.form-section-title {
+  padding: 0;
+  position: relative;
+}
+.form-section-title-bg {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+.form-section-title h3 {
+  font-size: 24px;
+  color: #fff;
+  font-weight: 700;
+  line-height: 1.2;
+  margin-bottom: 5px;
+}
+.form-section-title p {
+  font-size: 20px;
+  color: #fff;
+  font-weight: 600;
+  line-height: 1.4;
+}
+.form-mailto {
+  color: #f21140;
+  font-weight: 600;
+}
+.form-section {padding: 0;}
+.form-section-title .contact-point {
+  font-size: 16px;
+  margin: 15px 0 0;
+}
+.form-div {
+  padding: 0;
+  margin-top: 32px;
+}
+.form-header-img-bg {
+  position: absolute;
+  left: 15%;
+  bottom: 0;
+}
+.form-section-title .contact-point i {font-size: 20px;}
+.col-md-6.form-group, .col-md-12.form-group {
+  padding: 0;
+}
+.form-group input {
+  background-color: #fff;
+  border: 1px solid #e6e6e6;
+  border-radius: 15px;
+  height: 50px;
+  padding: 10px 30px 10px 10px;
+  font-size: 14px;
+  color: #848484;
+  width: 100%;
+}
+.form-group textarea {
+  background-color: #fff;
+  border: 1px solid #e6e6e6;
+  border-radius: 20px;
+  height: 150px;
+  padding: 10px 15px 10px 10px;
+  font-size: 14px;
+  color: #848484;
+  width: 100%;
+}
+.form-group #website {display: none;}
+.invalid-field{
+  border: 2px solid #dc3545!important;
+  outline: none!important;
+  box-shadow: 0 7px 16px rgba(220,52,69,0.12);
+}
+.form-group .invalid-field::placeholder {color: #dc3545;}
+.send-btn-img {
+  margin-right: 10px;
+  font-size: 18px;
+}
+.form-field-first, .form-field-second{padding: 0;}
+.form-header-img {
+  position: relative;
+}
+.one-click-top {
+  cursor: pointer;
+  position: absolute;
+  right: 20px;
+  bottom: 60px;
+  z-index: 1;
+}
+.one-click-top .click-top {
+  font-size: 40px;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+@media (min-width: 992px) {
+  .form-field-first{padding-right: 5px;}
+  .form-field-second{padding-left: 5px;}
+}

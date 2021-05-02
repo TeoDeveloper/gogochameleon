@@ -1,0 +1,35 @@
+button {
+  background: none;
+  outline: none;
+  border: none;
+}
+.theme-btn {
+  background: #f21140;
+  background: -webkit-linear-gradient(145deg,#f81f01,#ee076e);
+  padding: 10px 30px;
+  font-size: 20px;
+  font-weight: 700;
+  color: #fff;
+  border-radius: 100px;
+  text-decoration: none;
+  text-transform: uppercase;
+  z-index: 99;
+}
+.subtheme-btn {
+  font-size: 20px;
+  font-weight: 400;
+  border: none;
+}
+.header-btn-section {margin-top: 0;}
+.theme-btn:hover{
+  text-decoration: none;
+  color: #fff;
+  box-shadow: 0 7px 16px rgba(0,0,0,0.12);
+}
+.send-btn-img {
+  margin-right: 10px;
+  font-size: 18px;
+}
+.skills-section-footer p {
+  padding-bottom: 10px!important;
+}

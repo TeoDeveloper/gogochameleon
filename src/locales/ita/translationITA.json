@@ -1,0 +1,43 @@
+{
+  "overlay_email" : {
+    "thank_you": "Grazie mille",
+    "message_sent": "Il tuo messaggio è stato inviato!"
+  },
+  "aboutme_details" : {
+    "part1": "Ciao! Sono Matteo Marino,",
+    "digital_designer_from": " digital designer dal 2009",
+    "part2": ", creativo, perfezionista e fondatore di ",
+    "part3": ", una realtà nata con l'obiettivo di aiutare i miei clienti a promuovere le loro idee attraverso contenuti digitali visibili e facilmente riconoscibili dai loro utenti.",
+    "part4": "Utilizziamo le tecnologie web più attuali, integrandole al pensiero creativo e alla conoscenza dei media.",
+    "about_working": "Com'è lavorare con me?"
+  },
+  "menu": {
+    "aboutSection": "Chi sono",
+    "skillsSection": "Cosa faccio",
+    "experienceSection": "Come lavoro",
+    "workSection": "Gallery",
+    "reviewsSection": "Dicono di me",
+    "contactSection": "Contatti"
+  },
+  "skillsSection": {
+    "skillsTitle" : "Cosa faccio",
+    "worksTitle" : "Come lavoro"
+  },
+  "form": {
+    "sectionTitle": "Contattami",
+    "mind" : "Hai un progetto in mente?",
+    "form_email" : "Compila il form o mandami un'",
+    "placeholder": {
+      "firstName": "Nome*",
+      "email": "Email*",
+      "subject": "Oggetto",
+      "message": "Messaggio*"
+    },
+    "error": {
+      "name": "Nome*",
+      "email": "Email*",
+      "message": "Messaggio*"
+    },
+    "sendLabel": "invia messaggio"
+  }
+}

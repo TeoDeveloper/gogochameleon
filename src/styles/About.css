@@ -1,0 +1,41 @@
+.about-me-block{
+  padding: 0 0 20px;
+  position: relative;
+}
+.about-me-details {
+  padding: 25px;
+  background-color: rgba(95,39,86,.2);
+  border-radius: 25px;
+  max-width: 850px;
+}
+.img-about{max-width: 50%; margin-bottom: 10px;}
+.achievement-card{
+  margin: 0 10px 40px;
+}
+.about-me-details .linkedin-icon{
+  margin: 0 0 0 5px;
+}
+.achievement-card-img-section {
+  font-size: 46px;
+  width: 100%;
+}
+.achievement-card-title{font-family: "Poppins", sans-serif;}
+.achievement-card-title h3 {
+  font-size: 40px;
+  margin-top: 4px;
+  font-weight: 600;
+}
+.achievement-card-title p{font-weight: 700;}
+@media (min-width: 768px) {
+  .img-about {
+    max-width: 192px;
+  }
+}
+@media (min-width: 992px) {
+  .about-me-block {
+    padding-top: 40px;
+  }
+  .about-me-details{margin: 0 auto;}
+  .img-about{margin: 0 10px 0;}
+  .achievement-card{margin: 0 40px 40px;}
+}

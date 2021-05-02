@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Quicksand:wght@300;400;500;600;700&display=swap');
+*:focus, button:focus {
+  outline: none!important;
+}
+* {
+  -webkit-font-smoothing: antialiased;
+  -moz-os-font-smoothing: grayscale;
+  box-sizing: border-box;
+}
+html,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p{
+  padding: 0!important;
+  margin: 0!important;
+}
+a:hover{color: #f21140;}
+.text-12{font-size:12px!important;}
+.text-14{font-size:14px!important;}
+.text-15{font-size:15px!important;}
+.text-16{font-size:16px!important;}
+.text-18{font-size:18px!important;}
+.text-24{font-size:24px!important;}
+.text-32{font-size:32px!important;}
+.text-36{font-size:36px!important;}
+.text-40{font-size:40px!important;}
+
+.quicksand{font-family: 'Quicksand', sans-serif!important;}
+.montserrat{font-family: "Montserrat",sans-serif!important;}
+.poppins{font-family: "Poppins",sans-serif!important;}
+.fw600{font-weight: 600!important;}
+.fw700{font-weight: 700!important;}
+.fw800{font-weight: 800!important;}
+.fw900{font-weight: 900!important;}
+.color-primary, .hover-primary:hover{color: #f21140!important;}
+.hover-primary{transition: color 0.3s;}
+.color-bgprimary{
+  color: #f21140!important;
+  background: -webkit-linear-gradient(145deg,#f81f01,#ee076e)!important;
+  -webkit-background-clip: text!important;
+  -webkit-text-fill-color: transparent!important;
+}
+.skills-section, .experience-section, .work-section, .reviews-section, .post-section{
+  padding: 40px 0!important;
+  position: relative!important;
+}
+.footer-section {
+  text-align: center;
+  padding: 10px;
+  background-color: #f3f3f3;
+}
+.footer-container p {
+  color: #757575;
+  line-height: 1.5;
+}
+@media (min-width: 768px) {
+  .img-about{max-width: 192px!important;}
+  .experience-details-card-content h3{font-size: 18px!important;}
+  .experience-cards-container{padding: 0 0 0 8%!important;}
+  .experience-details-card{min-height: 87px!important;}
+  .tech-icons-section{padding: 40px 0 80px!important;}
+  .skills-card h3{font-size: 18px!important;}
+  .skills-card p {font-size: 14px!important;font-weight: 100!important;}
+}
+@media (min-width: 992px) {
+  .img-about{margin: 0 10px 0!important;}
+  .about-me-block{padding-top: 40px!important;}
+  .about-me-details{margin: 0 auto!important;}
+  .achievement-card{margin: 0 40px 40px!important;}
+  .experience-cards-container{padding: 0 0 0 5%!important;}
+  .reviews-card-details-section{max-width: 740px}
+  .reviews-card-img-quote{left: 0!important;top: -22px!important;font-size: 60px!important;}
+  .reviews-card-details-section{padding:25px}
+  .skills-card p {font-size: 14px!important;font-weight: 100!important;}
+  .form-field-first{padding-right: 5px!important;}
+  .form-field-second{padding-left: 5px!important;}
+}
