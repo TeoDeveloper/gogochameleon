@@ -16,7 +16,7 @@ import Cookie from "./components/Cookie";
 
 class App extends Component {
     state = {
-        underConstructionMode: false,
+        underConstructionMode: true,
         thankYouName: '',
         overlayStatus: false,
     }
