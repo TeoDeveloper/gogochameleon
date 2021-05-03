@@ -9,7 +9,7 @@
     font-size: 24px;
 }
 .header-title h2 {font-size: 36px;}
-.header-container img {width: 50%;}
+.header-container img.static-logo {width: 50%;}
 
 .logo-container{
     position:relative;
@@ -35,7 +35,7 @@
     .header-title h1 {
         font-size: 34px;
     }
-    .header-container img {
+    .header-container img.static-logo {
         width: 34%;
     }
 }
