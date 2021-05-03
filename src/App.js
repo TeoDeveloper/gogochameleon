@@ -45,7 +45,7 @@ class App extends Component {
                     thankYouName: ''
                 });
             }.bind(this),
-            3000
+            5000
         );
     }
 

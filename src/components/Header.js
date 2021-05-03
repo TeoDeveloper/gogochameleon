@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import MediaQuery from 'react-responsive'
 import logo from '../images/logo.svg';
 import logoEye from '../images/logoEye.svg';
 import pupil from '../images/pupil.svg';
@@ -10,13 +11,17 @@ class Header extends Component {
             <>
                 <div id="header" className="header-section">
                     <div className="container header-container d-flex justify-content-center align-items-center flex-column">
-                        <img className="d-block d-lg-none mx-auto" src={logo} alt={'logo'}/>
-                        <div className="d-none d-lg-block logo-container">
-                            <img className="logo" src={logoEye} width="250" alt={'logo_eye'}/>
-                            <div id="eye">
-                                <img src={pupil} width="22" alt={'logo_pupil'}/>
+                        <MediaQuery maxWidth={1200}>
+                            <img className="mx-auto" src={logo} alt={'logo'}/>
+                        </MediaQuery>
+                        <MediaQuery minWidth={1200}>
+                            <div className="logo-container">
+                                <img className="logo" src={logoEye} width="250" alt={'logo_eye'}/>
+                                <div id="eye">
+                                    <img src={pupil} width="22" alt={'logo_pupil'}/>
+                                </div>
                             </div>
-                        </div>
+                        </MediaQuery>
                         <div className="header-title text-center">
                             <h2 className="montserrat fw900 color-bgprimary">GoGoChameleon</h2>
                             <h1 className="montserrat fw800 text-uppercase text-white border-top">{description.toUpperCase()}</h1>
