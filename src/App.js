@@ -13,12 +13,29 @@ import Review from "./components/Review";
 import Form from "./components/Form";
 import UnderConstruction from "./components/UnderConstruction";
 import Cookie from "./components/Cookie";
+import GDPRDialog from "./components/GDPRDialog";
 
+let body = $("body");
 class App extends Component {
-    state = {
-        underConstructionMode: true,
-        thankYouName: '',
-        overlayStatus: false,
+
+    constructor() {
+        super();
+
+        this.state = {
+            underConstructionMode: false,
+            thankYouName: '',
+            overlayStatus: false,
+            GDPRDialogOpen: false,
+        }
+    }
+
+    handleDialogStatus = () => {
+        if(this.state.GDPRDialogOpen) {
+            body.removeClass("overflow-hidden");
+        } else {
+            body.addClass("overflow-hidden");
+        }
+        this.setState({GDPRDialogOpen: !this.state.GDPRDialogOpen});
     }
 
     onSubmit = ({firstName}, e) => {
@@ -36,16 +53,16 @@ class App extends Component {
             overlayStatus: !this.state.overlayStatus,
             thankYouName: firstName.toUpperCase(),
         });
-        $("body").addClass("overflow-hidden");
+        body.addClass("overflow-hidden");
         setTimeout(
             function() {
-                $("body").removeClass("overflow-hidden");
+                body.removeClass("overflow-hidden");
                 this.setState({
                     overlayStatus: !this.state.overlayStatus,
                     thankYouName: ''
                 });
             }.bind(this),
-            5000
+            3000
         );
     }
 
@@ -63,6 +80,7 @@ class App extends Component {
         const { t } = this.props;
         return(
             <>
+                {this.state.GDPRDialogOpen ? <GDPRDialog handleDialog={this.handleDialogStatus}/> : ''}
                 { this.state.underConstructionMode ?
                     <UnderConstruction/> :
                     <>
@@ -91,9 +109,10 @@ class App extends Component {
                             </SimpleReactLightbox>
                             <Review/>
                             <Form onValidate={this.onSubmit}
+                                  handleDialog={this.handleDialogStatus}
                                   smootScroll={this.goTo}
                                   hash={'#header'}/>
-                            <Cookie/>
+                            <Cookie handleDialog={this.handleDialogStatus}/>
                             <div className="footer-section">
                                 <div className="container footer-container">
                                     <p className="text-14 fw700">&copy; 2021

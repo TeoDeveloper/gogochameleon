@@ -70,6 +70,16 @@ export default function Form(props) {
                                                   placeholder={(errors && errors.message) ? t('form.error.message') : t('form.placeholder.message')}
                                                   {...register("message", { required: true })} />
                                     </div>
+                                    <div className="d-flex align-items-center">
+                                        <input type="checkbox"
+                                               style={{cursor: "pointer"}}
+                                               id="privacyAcceptance"
+                                               {...register("privacyAcceptance", { required: true })} />
+                                        <label style={{marginBottom: 0, cursor: "pointer"}}
+                                               onClick={() => props.handleDialog()}
+                                               className={`${(errors && errors.privacyAcceptance) ? 'color-primary' : ''} text-white text-12`}
+                                               htmlFor="privacyAcceptance">&nbsp;&nbsp;Check me out*</label>
+                                    </div>
                                     <br/>
                                     <div className="col-md-12 form-group d-flex justify-content-center align-items-center text-center">
                                         <button type="submit"

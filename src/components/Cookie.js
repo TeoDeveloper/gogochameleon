@@ -5,9 +5,13 @@ import { faCookieBite } from "@fortawesome/free-solid-svg-icons";
 
 class Cookie extends Component {
 
-    state = {
-        showCookie: true,
-        showCookieSettings: false,
+    constructor() {
+        super();
+
+        this.state = {
+            showCookie: true,
+            showCookieSettings: false,
+        }
     }
 
     closeCookie = () => this.setState({showCookie: !this.state.showCookie})
@@ -57,7 +61,9 @@ class Cookie extends Component {
                                     <FontAwesomeIcon className={'icon-cookie'} icon={faCookieBite}/>
                                     <span className='close-cookie text-18 fw900 quicksand' onClick={ () => this.closeCookie() }>X</span>
                                     <h5 className="text-14 fw600">Cookie use</h5>
-                                    <p className="card-text text-12">We use cookies to ensure a smooth browsing experience. By accepting, you agree the use of cookies. Learn More</p>
+                                    <p className="card-text text-12">We use cookies to ensure a smooth browsing experience. By accepting, you agree the use of cookies.
+                                        <span onClick={() => this.props.handleDialog()} style={{cursor: 'pointer'}} className='fw600'>&nbsp;Learn More</span>
+                                    </p>
                                     <span className="badge badge-pill" onClick={ () => this.closeCookie() }>Accept all</span>
                                     <span className="badge badge-pill" onClick={ () => this.handleCookieSettings() }>Settings</span>
                                 </div>
