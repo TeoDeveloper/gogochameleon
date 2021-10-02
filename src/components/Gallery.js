@@ -40,7 +40,8 @@ class Gallery extends Component {
                 <div id="works" className="work-section">
                     <div className="container work-section-container">
                         <div className="col-md-12 work-title">
-                            <h2 className="section-title">Gallery</h2>
+                            <h2 className="section-title"
+                                dangerouslySetInnerHTML={{__html: 'Gallery'}}/>
                             <div className="work-title-section-bg">
                             </div>
                         </div>

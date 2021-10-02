@@ -9,9 +9,8 @@ class LanguageSelect extends Component {
 
     renderLang = (value, idx) => {
         return(
-            <option key={idx} value={value}>
-                {value}
-            </option>
+            <option key={idx} value={value}
+                    dangerouslySetInnerHTML={{__html: value}}/>
         )
     }
     render(){

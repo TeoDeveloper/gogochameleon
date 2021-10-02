@@ -14,9 +14,9 @@ class WorkCard extends Component {
                         </div>
                     </div>
                     <div className="col-10 experience-details-card-content d-flex justify-content-start align-items-start flex-column">
-                        <h3>{title}</h3>
+                        <h3 dangerouslySetInnerHTML={{__html: title}}/>
                         <ul>
-                            <li>{description}</li>
+                            <li dangerouslySetInnerHTML={{__html: description}}/>
                         </ul>
                     </div>
                 </div>

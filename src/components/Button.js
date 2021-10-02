@@ -21,7 +21,7 @@ class Button extends Component {
             <>
                 {!!description ?
                     <div className="col-md-12 skills-section-footer quicksand text-18 fw700 text-center color-bgprimary">
-                        <p>{description}</p>
+                        <p dangerouslySetInnerHTML={{__html: description}}/>
                     </div> : '' }
                 <button type={type}
                         className="col-md-12 header-btn-section about-me-section-btn text-center d-flex justify-content-center align-items-center"

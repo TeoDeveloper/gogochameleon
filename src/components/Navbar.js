@@ -18,9 +18,8 @@ class Navbar extends Component {
             <li key={idx} className="nav-item">
                 <a className="nav-link text-white hover-primary"
                    href={`#${itemHash}`}
-                   onClick={ e => this.props.smootScroll(e, `#${itemHash}`) }>
-                    {translate(`menu.${itemHash}`)}
-                </a>
+                   onClick={ e => this.props.smootScroll(e, `#${itemHash}`) }
+                   dangerouslySetInnerHTML={{__html: translate(`menu.${itemHash}`)}}/>
             </li>
         );
     }
@@ -50,7 +49,8 @@ class Navbar extends Component {
                                 <div className="navbar-brand">
                                 <span className="navbar-brand-logo">
                                     <img src={logoGGC} width="50" alt="logo"/>
-                                    <p className="d-none d-lg-block montserrat text-16 color-bgprimary fw800">GoGoChameleon</p>
+                                    <p className="d-none d-lg-block montserrat text-16 color-bgprimary fw800"
+                                       dangerouslySetInnerHTML={{__html: 'GoGoChameleon'}}/>
                                 </span>
                                 </div>
                             </div>

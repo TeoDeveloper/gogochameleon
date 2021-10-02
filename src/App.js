@@ -3,6 +3,7 @@ import { withTranslation } from 'react-i18next'
 import $ from 'jquery'
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faPaperPlane } from "@fortawesome/free-solid-svg-icons";
+import logoGGC from './images/gogochameleon-logo.svg';
 import SimpleReactLightbox from 'simple-react-lightbox'
 import Navbar from "./components/Navbar";
 import Header from "./components/Header";
@@ -114,8 +115,10 @@ class App extends Component {
                             <Cookie handleDialog={this.handleDialogStatus}/>
                             <div className="footer-section">
                                 <div className="container footer-container">
-                                    <p className="text-14 fw700">&copy; 2021
-                                        <span className="color-primary montserrat"> GoGoChameleon</span>. All Rights Reserved
+                                    <p className="text-14 fw600 color-primary montserrat">
+                                        <span dangerouslySetInnerHTML={{__html: 'Proyecto de '}}/>
+                                        <img className="logo" src={logoGGC} width="20" alt={'logo_eye'}/>
+                                        <span dangerouslySetInnerHTML={{__html: ' GOGOCHAMELEON SL'}}/>
                                     </p>
                                 </div>
                             </div>

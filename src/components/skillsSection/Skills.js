@@ -14,7 +14,11 @@ class Skills extends Component {
                 <div id="experience" className="experience-section">
                     <div className="container experience-section-container">
                         <div className="col-md-12 skills-title">
-                            <h2 className="section-title"><span className="lang-how-work">{ this.props.t("skillsSection.worksTitle") }</span></h2>
+                            <h2 className="section-title">
+                                <span className="lang-how-work"
+                                      dangerouslySetInnerHTML={{__html: this.props.t("skillsSection.worksTitle")}}/><br/>
+
+                            </h2>
                             <div className="experience-title-section-bg"></div>
                         </div>
                         <div className="container experience-cards-container d-flex justify-content-center align-items-center flex-row flex-wrap">

@@ -52,8 +52,8 @@ const BrandExperience = () => {
             <div id="reviews" className="reviews-section">
                 <div className="container reviews-section-container">
                     <div className="col-md-12 reviews-title">
-                        <h2 className="section-title">Brand
-                            Experience</h2>
+                        <h2 className="section-title"
+                            dangerouslySetInnerHTML={{__html: 'Brand Experience'}}/>
                         <div className="reviews-title-section-bg">
                         </div>
                     </div>

@@ -29,8 +29,10 @@ class Header extends Component {
                             </div>
                         }
                         <div className="header-title text-center">
-                            <h2 className="montserrat fw900 color-bgprimary">GoGoChameleon</h2>
-                            <h1 className="montserrat fw800 text-uppercase text-white border-top">{description.toUpperCase()}</h1>
+                            <h2 className="montserrat fw900 color-bgprimary"
+                                dangerouslySetInnerHTML={{__html: 'GoGoChameleon'}}/>
+                            <h1 className="montserrat fw800 text-uppercase text-white border-top"
+                                dangerouslySetInnerHTML={{__html: description.toUpperCase()}}/>
                         </div>
                     </div>
                 </div>

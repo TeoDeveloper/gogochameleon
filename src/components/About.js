@@ -15,8 +15,8 @@ export const About = () => {
                     <FontAwesomeIcon icon={icon} />
                 </div>
                 <div className="achievement-card-title">
-                    <h3>{number}</h3>
-                    <p>{description}</p>
+                    <h3 dangerouslySetInnerHTML={{__html: number}}/>
+                    <p dangerouslySetInnerHTML={{__html: description}}/>
                 </div>
             </div>
         );
@@ -43,14 +43,19 @@ export const About = () => {
                                     {t("aboutme_details.part1")}
                                     <strong>{t("aboutme_details.digital_designer_from")}</strong>
                                     {t("aboutme_details.part2")}
-                                    <span className='montserrat fw800 color-primary'>GoGoChameleon</span>
-                                    {t("aboutme_details.part3")}<br/>
-                                    {t("aboutme_details.part4")}
+                                    <span className='montserrat fw800 color-primary'
+                                          dangerouslySetInnerHTML={{__html: 'GoGoChameleon'}}/>
+                                    <span dangerouslySetInnerHTML={{__html: t("aboutme_details.part3")}}/><br/>
+                                    <span dangerouslySetInnerHTML={{__html: t("aboutme_details.part4")}}/>
                                 </p>
                                 <p className="text-white text-12 d-flex align-items-center justify-content-center justify-content-lg-start">
-                                    <span className="color-primary poppins fw600">|</span>
-                                    <span>&nbsp;</span>{t("aboutme_details.about_working")}
-                                    <a className='text-decoration-none text-18 text-white linkedin-icon' target='_blank' href='https://www.linkedin.com/in/matteomarinodev/' rel="noreferrer">
+                                    <span className="color-primary poppins fw600"
+                                          dangerouslySetInnerHTML={{__html: '|'}}/>
+                                    <span>&nbsp;</span>
+                                    <span dangerouslySetInnerHTML={{__html: t("aboutme_details.about_working")}}/>
+                                    <a className='text-decoration-none text-18 text-white linkedin-icon'
+                                       target='_blank' href='https://www.linkedin.com/in/matteomarinodev/'
+                                       rel="noreferrer">
                                         <FontAwesomeIcon icon={faLinkedin} />
                                     </a>
                                 </p>
