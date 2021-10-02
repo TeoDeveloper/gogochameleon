@@ -9,7 +9,6 @@ import { Provider } from 'react-redux';
 import reportWebVitals from './reportWebVitals';
 import 'bootstrap/dist/css/bootstrap.min.css'
 import "react-responsive-carousel/lib/styles/carousel.min.css";
-import './styles/App.css';
 import './styles/LanguageSelect.css';
 import './styles/Header.css'
 import './styles/About.css'
@@ -20,7 +19,9 @@ import './styles/Review.css'
 import './styles/Form.css'
 import './styles/Cookie.css'
 import './index.css';
-//import './Background.css';
+import "swiper/components/navigation/";
+import "swiper/swiper.scss";
+import './styles/App.css';
 import 'jquery/dist/jquery.min'
 import 'bootstrap/dist/js/bootstrap.min'
 

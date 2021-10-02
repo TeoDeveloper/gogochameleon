@@ -1,4 +1,6 @@
 body {
+  background-image: url("./images/bg-pattern2.svg");
+  background-repeat: repeat;
   font-family: 'Quicksand', sans-serif!important;
   padding: 0!important;
   margin: 0!important;

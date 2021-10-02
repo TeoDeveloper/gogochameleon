@@ -16,7 +16,7 @@
     "skillsSection": "Cosa faccio",
     "experienceSection": "Come lavoro",
     "workSection": "Gallery",
-    "reviewsSection": "Dicono di me",
+    "reviewsSection": "Brand Experience",
     "contactSection": "Contatti"
   },
   "skillsSection": {
@@ -44,7 +44,10 @@
     "gdprTitle": "[ITA] Cookie Policy",
     "cookies": "[ITA] What Are Cookies?",
     "cookiesDescription": "[ITA] Cookies are small pieces of data (memory files) stored on your computer or device via your browser by sites you visit. As is common practice with almost all websites, this site uses cookies to improve your experience by remembering your preferences and enable other cookie-based features (e.g. analytics), either for a single visit (through a 'session cookie') or for multiple repeat visits (using a 'persistent cookie').",
-    "ourCookies": "[ITA] Our Cookies",
+    "ourCookies": "[ITA] Cookie use",
+    "ok": "Ok",
+    "x": "X",
+    "generalCookies": "[ITA] This site only uses cookies that enable core functionality such as security, network management and accessibility. These cookies can’t be switched off.",
     "purposes": {
       "line1": "[ITA] We use cookies for a number of different purposes.",
       "line2": "[ITA] If you submit data through a form such as those found on contact pages, comment forms, or blog subscription, cookies may be set to remember your user details for future correspondence.",

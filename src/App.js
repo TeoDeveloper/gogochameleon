@@ -8,8 +8,8 @@ import Navbar from "./components/Navbar";
 import Header from "./components/Header";
 import About from "./components/About";
 import Skills from "./components/skillsSection/Skills";
+import BrandExperience from "./components/BrandExperience";
 import Gallery from "./components/Gallery";
-import Review from "./components/Review";
 import Form from "./components/Form";
 import UnderConstruction from "./components/UnderConstruction";
 import Cookie from "./components/Cookie";
@@ -107,7 +107,9 @@ class App extends Component {
                             <SimpleReactLightbox>
                                 <Gallery/>
                             </SimpleReactLightbox>
-                            <Review/>
+                            {/*<Review/>
+                            */}
+                            <BrandExperience/>
                             <Form onValidate={this.onSubmit}
                                   handleDialog={this.handleDialogStatus}
                                   smootScroll={this.goTo}

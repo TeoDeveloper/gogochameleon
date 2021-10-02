@@ -48,6 +48,11 @@ a:hover{color: #f21140;}
   padding: 40px 0!important;
   position: relative!important;
 }
+.swiper-wrapper {
+  height: 110px!important;
+  margin-top: 40px;
+  align-items: center!important;
+}
 .footer-section {
   text-align: center;
   padding: 10px;

@@ -12,7 +12,7 @@ export default function Form(props) {
     const { t } = useTranslation();
 
     useEffect(() => {
-        if( isSubmitSuccessful ) reset()
+        if( isSubmitSuccessful ) reset();
     })
 
     return (
