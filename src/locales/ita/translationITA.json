@@ -26,7 +26,7 @@
   "form": {
     "sectionTitle": "Contattami",
     "mind" : "Hai un progetto in mente?",
-    "form_email" : "Compila il form o mandami un'",
+    "form_email" : "Mandami un'",
     "placeholder": {
       "firstName": "Nome*",
       "email": "Email*",
@@ -39,6 +39,12 @@
       "message": "Messaggio*"
     },
     "sendLabel": "invia messaggio"
+  },
+  "contact": {
+    "title": " We are here",
+    "address": " Av. Touroperador Air Marín, 1, 35100 Maspalomas, Las Palmas",
+    "phone": "+12354 569 874",
+    "mail": "gogochameleon@gmail.com"
   },
   "GDPR": {
     "gdprTitle": "[ITA] Cookie Policy",

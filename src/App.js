@@ -10,7 +10,7 @@ import About from "./components/About";
 import Skills from "./components/skillsSection/Skills";
 import BrandExperience from "./components/BrandExperience";
 import Gallery from "./components/Gallery";
-import Form from "./components/Form";
+import Map from "./components/Map";
 import UnderConstruction from "./components/UnderConstruction";
 import Cookie from "./components/Cookie";
 import GDPRDialog from "./components/GDPRDialog";
@@ -110,10 +110,7 @@ class App extends Component {
                             {/*<Review/>
                             */}
                             <BrandExperience/>
-                            <Form onValidate={this.onSubmit}
-                                  handleDialog={this.handleDialogStatus}
-                                  smootScroll={this.goTo}
-                                  hash={'#header'}/>
+                            <Map/>
                             <Cookie handleDialog={this.handleDialogStatus}/>
                             <div className="footer-section">
                                 <div className="container footer-container">
