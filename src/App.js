@@ -111,7 +111,8 @@ class App extends Component {
                             {/*<Review/>
                             */}
                             <BrandExperience/>
-                            <Map/>
+                            <Map smootScroll={this.goTo}
+                                 hash={'#header'}/>
                             <Cookie handleDialog={this.handleDialogStatus}/>
                             <div className="footer-section">
                                 <div className="container footer-container">
