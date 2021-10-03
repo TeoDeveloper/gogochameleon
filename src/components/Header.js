@@ -14,18 +14,10 @@ class Header extends Component {
                     <div className="container header-container d-flex justify-content-center align-items-center flex-column">
                         {isMobile ? <img className="static-logo mx-auto" src={logoGGC} alt={'logo'}/> :
                             <div className="logo-container">
-                                <img className="logo" src={logoGGC} width="250" alt={'logo_eye'}/>
-
-                                {/*<img className="logo" src={logoEye} width="250" alt={'logo_eye'}/>
+                                <img className="logo" src={logoEye} width="200" alt={'logo_eye'}/>
                                 <div id="eye">
-                                    <img src={pupil} width="22" alt={'logo_pupil'}/>
+                                    <img src={pupil} width="30" alt={'logo_pupil'}/>
                                 </div>
-
-                                <span className="color-primary font-weight-bolder quicksand"
-                                      style={{fontSize: 130}}>
-                                    {`{>.<}`}
-                                </span>
-                                */}
                             </div>
                         }
                         <div className="header-title text-center">
@@ -39,7 +31,7 @@ class Header extends Component {
             </>
         )
     }
-    /*componentDidMount() {
+    componentDidMount() {
         if(!isMobile) {
             const EYES = {};
             let mouseY, elY, obj;
@@ -101,7 +93,7 @@ class Header extends Component {
                 EYES.follow ('eye');
             })();
         }
-    }*/
+    }
 }
 
 export default Header;

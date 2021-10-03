@@ -19,11 +19,12 @@
 #eye {
     border-radius: 50%;
     position: absolute;
-    top: 49px;
-    right: 31px;
+    top: 46px;
+    right: 29px;
     width: 62px;
     height: 62px;
     background: #FFFFFF;
+    z-index: -1;
 }
 #eye img {
     position: absolute;
