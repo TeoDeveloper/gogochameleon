@@ -1,7 +1,6 @@
 import React, { Component } from 'react'
 import { withTranslation } from 'react-i18next'
 import '../styles/Navbar.css'
-import logo from '../images/logo.svg';
 import logoGGC from '../images/gogochameleon-logo.svg';
 import LanguageSelect from "./languageSelect/LanguageSelect";
 

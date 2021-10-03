@@ -26,7 +26,7 @@ export default function Map(props) {
                         <div className="col-md-6 form-section">
                             <div className="col-md-12 form-section-title">
                                 <div className="form-section-title-bg">
-                                    <img src={profile} />
+                                    <img src={profile} alt="form-section-title-bg" />
                                 </div>
                                 <h3 dangerouslySetInnerHTML={{__html: t(`form.mind`)}}/>
                                 <p className="contact-point mt-4 mb-3">
@@ -59,9 +59,9 @@ export default function Map(props) {
                             </div>
                         </div>
                         <div className="d-none d-md-block col-md-6 form-header-img">
-                            <img className="w-100" src={plane} />
+                            <img className="w-100" src={plane} alt="img-plane-contact" />
                             <div className="form-header-img-bg">
-                                <img className="w-100" src={phone} />
+                                <img className="w-100" src={phone} alt="img-phone-contact" />
                             </div>
                         </div>
                     </div>

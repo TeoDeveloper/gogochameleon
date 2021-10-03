@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import logo from '../images/logo.svg';
 import logoGGC from '../images/gogochameleon-logo.svg';
 import logoEye from '../images/logoEye.svg';
 import pupil from '../images/pupil.svg';

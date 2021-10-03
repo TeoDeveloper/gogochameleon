@@ -16,7 +16,7 @@ class Button extends Component {
     }
 
     render() {
-        const {description, href, iconType, cta = '! missing cta', t, type = 'button', onValidation, smootScroll, hash = ''} = this.props;
+        const {description, href, iconType, cta = '! missing cta', type = 'button', onValidation, smootScroll, hash = ''} = this.props;
         return (
             <>
                 {!!description ?
