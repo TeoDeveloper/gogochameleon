@@ -3,20 +3,20 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import { withTranslation } from 'react-i18next'
 import SwiperCore, { Autoplay, Navigation } from "swiper";
 
-import unieuro from '../images/brand-experience/unieuro.png';
-import lm from '../images/brand-experience/lm.png';
-import mrn from '../images/brand-experience/mrn.png';
-import ici from '../images/brand-experience/ici.png';
+import unieuro from '../images/brand-experience/unieuro.svg';
+import lm from '../images/brand-experience/lm.svg';
+import mrn from '../images/brand-experience/mrn.svg';
+import ici from '../images/brand-experience/ici.svg';
 
-import kv from '../images/brand-experience/kv.png';
-import db from '../images/brand-experience/db.png';
-import citroen from '../images/brand-experience/citroen.png';
-import peugeot from '../images/brand-experience/peugeot.png';
+import kv from '../images/brand-experience/kv.svg';
+import db from '../images/brand-experience/db.svg';
+import citroen from '../images/brand-experience/citroen.svg';
+import peugeot from '../images/brand-experience/peugeot.svg';
 
-import stba from '../images/brand-experience/stba.png';
-import martini from '../images/brand-experience/martini.png';
-import bacardi from '../images/brand-experience/bacardi.png';
-import bombay from '../images/brand-experience/bombay.png';
+import stba from '../images/brand-experience/stba.svg';
+import martini from '../images/brand-experience/martini.svg';
+import bacardi from '../images/brand-experience/bacardi.svg';
+import bombay from '../images/brand-experience/bombay.svg';
 
 const BrandExperience = () => {
     SwiperCore.use([Autoplay, Navigation]);
