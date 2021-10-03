@@ -23,7 +23,7 @@ class App extends Component {
         super();
 
         this.state = {
-            underConstructionMode: true,
+            underConstructionMode: false,
             thankYouName: '',
             overlayStatus: false,
             GDPRDialogOpen: false,

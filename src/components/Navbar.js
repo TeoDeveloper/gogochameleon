@@ -3,6 +3,8 @@ import { withTranslation } from 'react-i18next'
 import '../styles/Navbar.css'
 import logoGGC from '../images/gogochameleon-logo.svg';
 import LanguageSelect from "./languageSelect/LanguageSelect";
+import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
+import {faLinkedin} from "@fortawesome/free-brands-svg-icons";
 
 class Navbar extends Component {
     state = {
@@ -47,7 +49,7 @@ class Navbar extends Component {
                                 </button>
                                 <div className="navbar-brand">
                                 <span className="navbar-brand-logo">
-                                    <img src={logoGGC} width="50" alt="logo"/>
+                                    <img src={logoGGC} width="40" alt="logo"/>
                                     <p className="d-none d-lg-block montserrat text-16 color-bgprimary fw800"
                                        dangerouslySetInnerHTML={{__html: 'GoGoChameleon'}}/>
                                 </span>
@@ -60,6 +62,15 @@ class Navbar extends Component {
                                 {navItem.map((value, index) => this.renderItem(value, index, t))}
                             </ul>
                         </div>
+                        <div>
+                            <a className='d-none d-lg-block text-decoration-none text-18 text-white linkedin-icon'
+                               style={{marginLeft: '10px'}}
+                               target='_blank' href='https://www.linkedin.com/in/matteomarinodev/'
+                               rel="noreferrer">
+                                <FontAwesomeIcon icon={faLinkedin} />
+                            </a>
+                        </div>
+
                         <LanguageSelect/>
                     </div>
                 </nav>
