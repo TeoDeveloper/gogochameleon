@@ -64,7 +64,7 @@ export const About = () => {
                     </div>
                 </div>
             </div>
-            <div className="about-me-achievement-section text-center d-flex justify-content-end justify-content-md-center align-items-start flex-wrap">
+            <div className="about-me-achievement-section text-center d-flex justify-content-center align-items-start flex-wrap">
                 {achievementCards.map(renderCard)}
             </div>
         </>

@@ -14,6 +14,7 @@ import citroen from '../images/brand-experience/citroen.svg';
 import peugeot from '../images/brand-experience/peugeot.svg';
 
 import stba from '../images/brand-experience/stba.svg';
+import oceanomare from '../images/brand-experience/oceanomare.svg';
 import martini from '../images/brand-experience/martini.svg';
 import bacardi from '../images/brand-experience/bacardi.svg';
 import bombay from '../images/brand-experience/bombay.svg';
@@ -64,7 +65,7 @@ const BrandExperience = () => {
                                 {...swiperOption}
                                 style={{"--swiper-navigation-color": "#fff"}}
                             >
-                                {[unieuro, lm, mrn, ici, kv, db, citroen, peugeot, stba, martini, bacardi, bombay ].map((single, key) => {
+                                {[unieuro, lm, mrn, ici, kv, db, citroen, peugeot, stba, oceanomare, martini, bacardi, bombay ].map((single, key) => {
                                     return (
                                         <SwiperSlide key={key}>
                                             <div className="single-brand d-flex justify-content-center align-items-center">

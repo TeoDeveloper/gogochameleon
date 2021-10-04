@@ -5,6 +5,7 @@ import logoGGC from '../images/gogochameleon-logo.svg';
 import LanguageSelect from "./languageSelect/LanguageSelect";
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 import {faLinkedin} from "@fortawesome/free-brands-svg-icons";
+import $ from "jquery";
 
 class Navbar extends Component {
     state = {
@@ -48,11 +49,11 @@ class Navbar extends Component {
                                     <span></span>
                                 </button>
                                 <div className="navbar-brand">
-                                <span className="navbar-brand-logo">
+                                <div className="navbar-brand-logo">
                                     <img src={logoGGC} width="40" alt="logo"/>
-                                    <p className="d-none d-lg-block montserrat text-16 color-bgprimary fw800"
-                                       dangerouslySetInnerHTML={{__html: 'GoGoChameleon'}}/>
-                                </span>
+                                    {/*<p className="d-none d-lg-block montserrat text-16 color-bgprimary fw800"
+                                       dangerouslySetInnerHTML={{__html: 'GoGoChameleon'}}/>*/}
+                                </div>
                                 </div>
                             </div>
 
@@ -76,6 +77,13 @@ class Navbar extends Component {
                 </nav>
             </>
         );
+    }
+    componentDidMount() {
+        const that = this;
+        $('.navbar-collapse a').click(function(){
+            $(".navbar-collapse").collapse('hide');
+            that.setState({isOpen: !that.state.isOpen});
+        });
     }
 }
 

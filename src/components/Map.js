@@ -35,13 +35,15 @@ export default function Map(props) {
                                        href="tel:+12354569874"
                                        dangerouslySetInnerHTML={{__html: t(`contact.phone`)}}
                                     />&nbsp;&nbsp;&nbsp;
-                                    <FontAwesomeIcon className={'color-bgprimary'} icon={faPaperPlane} />&nbsp;
-                                    <a href="mailto:abc@example.com"
-                                       className="text-white hover-primary"
-                                       target={"_blank"}
-                                       rel="noreferrer"
-                                       dangerouslySetInnerHTML={{__html: t(`contact.mail`)}}
-                                    />
+                                    <span className="d-block d-md-inline mt-2 mt-md-0">
+                                        <FontAwesomeIcon className={'color-bgprimary'} icon={faPaperPlane} />&nbsp;
+                                        <a href="mailto:abc@example.com"
+                                           className="text-white hover-primary"
+                                           target={"_blank"}
+                                           rel="noreferrer"
+                                           dangerouslySetInnerHTML={{__html: t(`contact.mail`)}}
+                                        />
+                                    </span>
                                 </p>
                                 <p className="contact-point">
                                     <FontAwesomeIcon className={'color-bgprimary'} icon={faMapMarker} />
