@@ -21,7 +21,7 @@ class App extends Component {
         super();
 
         this.state = {
-            underConstructionMode: false,
+            underConstructionMode: true,
             thankYouName: '',
             overlayStatus: false,
             GDPRDialogOpen: false,
@@ -109,7 +109,8 @@ class App extends Component {
                             <Review/>
                             */}
                             <BrandExperience/>
-                            <Map smootScroll={this.goTo}
+                            <Map onValidate={this.onSubmit}
+                                 smootScroll={this.goTo}
                                  hash={'#header'}
                                  handleDialog={this.handleDialogStatus}/>
                             <Cookie handleDialog={this.handleDialogStatus}/>
