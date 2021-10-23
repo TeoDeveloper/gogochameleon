@@ -10,7 +10,7 @@ import $ from "jquery";
 class Navbar extends Component {
     state = {
         isOpen: false,
-        navItem: ['aboutSection', 'skillsSection', 'experienceSection', 'workSection', 'reviewsSection', 'contactSection']
+        navItem: ['aboutSection', 'skillsSection', 'experienceSection', 'reviewsSection', 'contactSection']
     };
 
     openMenu = () => this.setState({isOpen: !this.state.isOpen});
@@ -28,7 +28,7 @@ class Navbar extends Component {
 
     render(){
         const { isOpen, navItem } = this.state;
-        const { t } = this.props;
+        const { t, smootScroll } = this.props;
         return(
             <>
                 <nav id="navbar" className="navbar fixed-top navbar-expand-lg navbar-header navbar-mobile bg-dark">
@@ -49,11 +49,10 @@ class Navbar extends Component {
                                     <span></span>
                                 </button>
                                 <div className="navbar-brand">
-                                <div className="navbar-brand-logo">
-                                    <img src={logoGGC} width="40" alt="logo"/>
-                                    {/*<p className="d-none d-lg-block montserrat text-16 color-bgprimary fw800"
-                                       dangerouslySetInnerHTML={{__html: 'GoGoChameleon'}}/>*/}
-                                </div>
+                                    <div className="navbar-brand-logo"
+                                         onClick={(e) => smootScroll(e, '#header')}>
+                                        <img src={logoGGC} width="40" alt="logo"/>
+                                    </div>
                                 </div>
                             </div>
 

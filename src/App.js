@@ -4,13 +4,11 @@ import $ from 'jquery'
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faPaperPlane } from "@fortawesome/free-solid-svg-icons";
 import logoGGC from './images/gogochameleon-logo.svg';
-import SimpleReactLightbox from 'simple-react-lightbox'
 import Navbar from "./components/Navbar";
 import Header from "./components/Header";
 import About from "./components/About";
 import Skills from "./components/skillsSection/Skills";
 import BrandExperience from "./components/BrandExperience";
-import Gallery from "./components/Gallery";
 import Map from "./components/Map";
 import UnderConstruction from "./components/UnderConstruction";
 import Cookie from "./components/Cookie";
@@ -23,7 +21,7 @@ class App extends Component {
         super();
 
         this.state = {
-            underConstructionMode: true,
+            underConstructionMode: false,
             thankYouName: '',
             overlayStatus: false,
             GDPRDialogOpen: false,
@@ -105,14 +103,15 @@ class App extends Component {
                             <Skills displayModes={'skills'}/>
                             <Skills displayModes={'works'}
                                     smootScroll={this.goTo}/>
-                            <SimpleReactLightbox>
+                            {/*<SimpleReactLightbox>
                                 <Gallery/>
                             </SimpleReactLightbox>
-                            {/*<Review/>
+                            <Review/>
                             */}
                             <BrandExperience/>
                             <Map smootScroll={this.goTo}
-                                 hash={'#header'}/>
+                                 hash={'#header'}
+                                 handleDialog={this.handleDialogStatus}/>
                             <Cookie handleDialog={this.handleDialogStatus}/>
                             <div className="footer-section">
                                 <div className="container footer-container">

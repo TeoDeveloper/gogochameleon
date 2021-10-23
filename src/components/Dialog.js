@@ -10,9 +10,11 @@ class Dialog extends Component {
                 <div className='cookie-settings-container d-flex align-items-center justify-content-center flex-column'>
                     <div className='card' style={{maxWidth: '80%', maxHeight: '80%', position: 'relative'}}>
                         {title || closeIcon ?
-                            <div className='text-18 font-weight-bold d-flex justify-content-between' style={{margin: '10px 30px 10px 20px'}}>
-                                {title ? title : ''}
-                                {closeIcon ? <span style={{cursor: "pointer"}} onClick={() => openDialog()}>X</span> : ''}
+                            <div className='text-18 font-weight-bold d-flex justify-content-between'
+                                 style={{margin: '10px 30px 10px 20px'}}>
+                                <span dangerouslySetInnerHTML={{__html: title ? title : ''}}/>
+                                {closeIcon ? <span style={{cursor: "pointer"}} onClick={() => openDialog()}
+                                                   dangerouslySetInnerHTML={{__html: 'X'}}/> : ''}
                             </div> : ''
                         }
                         <div className='card-body' style={{overflowY: 'scroll'}}>

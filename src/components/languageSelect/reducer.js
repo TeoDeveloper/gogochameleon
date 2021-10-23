@@ -4,7 +4,7 @@ const initialState = {
     languageList: [
         "ITA",
         "EN",
-        "ES",
+        //"ES",
     ]
 };
 
