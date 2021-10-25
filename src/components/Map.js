@@ -37,11 +37,16 @@ export default function Map(props) {
                                         <FontAwesomeIcon className={'color-bgprimary'} icon={faMapMarker} />
                                         <span dangerouslySetInnerHTML={{__html: t(`contact.address`)}}/>
                                     </span>
-                                    <FontAwesomeIcon className={'color-bgprimary'} icon={faPhone} />&nbsp;
+                                    {/*<FontAwesomeIcon className={'color-bgprimary'} icon={faPhone} />&nbsp;
                                     <a className="text-white hover-primary"
                                        href="tel:+12354569874"
                                        dangerouslySetInnerHTML={{__html: t(`contact.phone`)}}
-                                    />&nbsp;&nbsp;&nbsp;
+                                    />&nbsp;&nbsp;&nbsp;*/}
+                                    <span className='d-none d-lg-block'>
+                                        <span dangerouslySetInnerHTML={{__html: t(`form.form_email`)}}/><a className="form-mailto" href="mailto:gogochameleonsl@gmail.com">email</a>
+                                        <span dangerouslySetInnerHTML={{__html: t(`form.send-form`)}}/>
+                                    </span>
+                                    <span className='d-block d-lg-none'>
                                     <span className="d-block d-md-inline mt-2 mt-md-0">
                                         <FontAwesomeIcon className={'color-bgprimary'} icon={faPaperPlane} />&nbsp;
                                         <a href="mailto:abc@example.com"
@@ -50,7 +55,7 @@ export default function Map(props) {
                                            rel="noreferrer"
                                            dangerouslySetInnerHTML={{__html: t(`contact.mail`)}}
                                         />
-                                    </span><br className='d-block d-lg-none'/>
+                                    </span></span><br className='d-block d-lg-none'/>
                                 </p>
                             </div>
                             <p className={'text-white'}>{!!errors}</p>
@@ -92,8 +97,9 @@ export default function Map(props) {
                                            className={`${(errors && errors.privacyAcceptance) ? 'color-primary' : ''} text-white text-12`}
                                            htmlFor="privacyAcceptance">
                                         <span dangerouslySetInnerHTML={{__html: t(`contact.checkPolicy`)}}/>
-                                        <span className='hover-primary' onClick={() => props.handleDialog()}
+                                        <span className='hover-primary' style={{textDecoration: 'underline'}} onClick={() => props.handleDialog()}
                                               dangerouslySetInnerHTML={{__html: t(`contact.policy`)}}/>
+                                        <span dangerouslySetInnerHTML={{__html: '*'}}/>
                                     </label>
                                 </div>
                                 <br/>
@@ -118,7 +124,8 @@ export default function Map(props) {
                             </div>
                             <div className="col-md-12 mt-3" style={{padding: 0}}>
                                 <iframe
-                                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d29179.69735735164!2d-15.600415528090922!3d27.75257589431331!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xc3f7d34540dcfe3%3A0x7c1a2f328d8ccd63!2sAv.%20Touroperador%20Air%20Mar%C3%ADn%2C%201%2C%2035100%20Maspalomas%2C%20Las%20Palmas%2C%20Spagna!5e0!3m2!1sit!2sit!4v1632066688695!5m2!1sit!2sit"                            width={'100%'}
+                                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d236380.8751558968!2d-15.661235027802087!3d27.959770022106177!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xc40855504bf07c1%3A0x2ec916c8a5acdb16!2sGran%20Canaria!5e0!3m2!1sit!2ses!4v1635183541441!5m2!1sit!2ses"
+                                    width={'100%'}
                                     title={"map of maspalomas"}
                                     height={"350"}
                                     style={{border:0}}

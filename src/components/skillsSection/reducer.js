@@ -11,12 +11,12 @@ import {
 
 const initialState = {
     skills: [
-        {id: 0, icon: faPuzzlePiece, title: 'UI/UX Design', description: 'Definire cosa farà il prodotto prima di progettare come lo farà'},
-        {id: 1, icon: faLayerGroup, title: 'Web Design', description: 'Equilibrio, Contrasto, Enfasi, Movimento, Ritmo, Gerarchia, Spazio bianco, Unità'},
-        {id: 2, icon: faCube, title: 'Website Development', description: 'Tell the world a little something about your skills and expertise'},
-        {id: 3, icon: faHandHoldingUsd, title: 'Ecommerce', description: 'Tell the world a little something about your skills and expertise'},
-        {id: 4, icon: faIcons, title: 'Social Media', description: 'Tell the world a little something about your skills and expertise'},
-        {id: 5, icon: faPalette, title: 'Graphic Design', description: 'Tell the world a little something about your skills and expertise'},
+        {id: 0, icon: faPuzzlePiece, title: 'UI/UX Design'},
+        {id: 1, icon: faLayerGroup, title: 'Web Design'},
+        {id: 2, icon: faCube, title: 'Website Development'},
+        {id: 3, icon: faHandHoldingUsd, title: 'Ecommerce'},
+        {id: 4, icon: faIcons, title: 'Social Media'},
+        {id: 5, icon: faPalette, title: 'Graphic Design'},
     ],
     works: [
         {id: 0,icon: faStreetView, title: '1. Study and Analysis',
