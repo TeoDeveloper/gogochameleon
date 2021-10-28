@@ -50,7 +50,7 @@
   "GDPR": {
     "cookiePolicy": "[ITA] Cookie Policy.",
     "privacyPolicy": "[ITA] Privacy Policy",
-    "and": "&nbsp;[ITA] e la&nbsp;",
+    "and": "&nbsp;e la&nbsp;",
     "respect": "&nbsp;rispetta la tua privacy.<br/> Puoi visionare qui la nostra<br/>",
     "gdprPrivacy": "<span class='color-primary montserrat fw600'>GoGoChameleon</span><br class='d-block d-md-none'/> ‣ Privacy Policy",
     "gdprCookie": "<span class='color-primary montserrat fw600'>GoGoChameleon</span><br class='d-block d-md-none'/> ‣ Cookie Policy",

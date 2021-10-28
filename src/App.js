@@ -116,7 +116,7 @@ class App extends Component {
                             <Cookie handleDialog={this.handleDialogStatus}/>
                             <div className="footer-section">
                                 <div className="container footer-container">
-                                    <p className="text-14 fw600 color-primary montserrat">
+                                    <p className="text-12 fw600 color-primary montserrat">
                                         <span dangerouslySetInnerHTML={{__html: 'Proyecto de '}}/>
                                         <img className="logo" src={logoGGC} width="20" alt={'logo_eye'}/>
                                         <span dangerouslySetInnerHTML={{__html: ' GOGOCHAMELEON SL'}}/>

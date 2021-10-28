@@ -7,7 +7,7 @@ import Button from "../Button";
 
 class Skills extends Component {
 
-    renderWorks = () => {
+    renderWorks = t => {
         return(
             <>
                 <div id="experienceSection"></div>
@@ -26,8 +26,8 @@ class Skills extends Component {
                                                                      work={work}/>)}
                         </div>
                     </div>
-                    <Button description={'Hai un progetto in mente?'}
-                            cta={'contattami'}
+                    <Button description={t(`form.mind`)}
+                            cta={t(`form.sectionTitle`)}
                             href={'#contactSection'}
                             smootScroll={this.props.smootScroll}
                             hash={'#contactSection'}/>
@@ -57,20 +57,20 @@ class Skills extends Component {
         )
     }
 
-    renderSection = displayModes => {
+    renderSection = (displayModes, t) => {
         switch (displayModes) {
             case 'skills':
                 return this.renderSkills();
             case 'works':
             default:
-                return this.renderWorks();
+                return this.renderWorks(t);
         }
     }
 
     render() {
-        const { displayModes } = this.props;
+        const { displayModes, t } = this.props;
         return (
-            this.renderSection(displayModes)
+            this.renderSection(displayModes, t)
         )
     }
 }
