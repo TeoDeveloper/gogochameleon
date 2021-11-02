@@ -3,7 +3,7 @@ import { useTranslation } from 'react-i18next'
 import { faMugHot, faCogs, faBed, faHandPeace } from "@fortawesome/free-solid-svg-icons";
 import { faLinkedin } from "@fortawesome/free-brands-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import reviewer1 from '../images/reviewer1.png';
+import img_aboutme from '../images/img_aboutme.png';
 
 export const About = () => {
     const { t } = useTranslation();
@@ -37,7 +37,7 @@ export const About = () => {
                 <div className="container">
                     <div className="about-me-block">
                         <div className="about-me-details text-white text-center text-lg-left quicksand text-16 d-flex justify-content-center align-items-center flex-column flex-lg-row">
-                            <img className="img-about" src={reviewer1} alt={'imagw_profile'}/>
+                            <img className="img-about" src={img_aboutme} alt={'img_aboutme'}/>
                             <div>
                                 <p className='text-15'>
                                     {t("aboutme_details.part1")}

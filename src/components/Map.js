@@ -1,9 +1,9 @@
-import React, {useEffect} from "react";
+import React, { useEffect } from "react";
 import { useTranslation } from "react-i18next";
-import { faArrowAltCircleUp, faMapMarker, faPaperPlane, faPhone } from "@fortawesome/free-solid-svg-icons";
+import { faArrowAltCircleUp, faMapMarker, faPaperPlane } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import profile from '../images/get-in-touch-section/profile.png';
-import {useForm} from "react-hook-form";
+import { useForm } from "react-hook-form";
 
 export default function Map(props) {
     const { register, formState: { errors, isSubmitSuccessful}, handleSubmit, reset } = useForm();
