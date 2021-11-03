@@ -33,6 +33,10 @@
   text-align: center;
   color: #fff;
 }
+.study {order:1}
+.idea {order:2}
+.development {order:3}
+.launch {order:4}
 .experience-details-card-content {padding-left: 25px; font-family: 'Quicksand', sans-serif;}
 .experience-details-card-content h3 {
   color: #f21140;
@@ -62,4 +66,5 @@
 @media (min-width: 992px) {
   .skills-card p {font-size: 14px;font-weight: 100;}
   .experience-cards-container{padding: 0 0 0 5%;}
+  .study, .idea, .development, .launch {order: unset}
 }
