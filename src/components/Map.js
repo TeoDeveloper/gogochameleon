@@ -43,13 +43,16 @@ export default function Map(props) {
                                        dangerouslySetInnerHTML={{__html: t(`contact.phone`)}}
                                     />&nbsp;&nbsp;&nbsp;*/}
                                     <span className='d-none d-lg-block'>
-                                        <span dangerouslySetInnerHTML={{__html: t(`form.form_email`)}}/><a className="form-mailto" href="mailto:gogochameleonsl@gmail.com">email</a>
+                                        <span dangerouslySetInnerHTML={{__html: t(`form.form_email`)}}/>
+                                        <a className="form-mailto" href="mailto:gogochameleonsl@gmail.com"
+                                           dangerouslySetInnerHTML={{__html: 'email'}}>
+                                        </a>
                                         <span dangerouslySetInnerHTML={{__html: t(`form.send-form`)}}/>
                                     </span>
                                     <span className='d-block d-lg-none'>
                                     <span className="d-block d-md-inline mt-2 mt-md-0">
                                         <FontAwesomeIcon className={'color-bgprimary'} icon={faPaperPlane} />&nbsp;
-                                        <a href="mailto:abc@example.com"
+                                        <a href="mailto:gogochameleonsl@gmail.com"
                                            className="text-white hover-primary"
                                            target={"_blank"}
                                            rel="noreferrer"
