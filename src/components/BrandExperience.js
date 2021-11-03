@@ -26,7 +26,7 @@ const BrandExperience = () => {
         loop: true,
         navigation: false,
         autoplay: {
-            delay: 8000,
+            delay: 5000,
             disableOnInteraction: false,
         },
         loopFillGroupWithBlank: true,
