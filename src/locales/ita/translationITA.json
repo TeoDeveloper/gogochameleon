@@ -23,6 +23,12 @@
     "skillsTitle" : "Cosa faccio",
     "worksTitle" : "Come lavoro"
   },
+  "worksSection": {
+    "study" : "Analisi dettagliata del business e degli obiettivi in modo da poter strutturare una strategia digital su misura.",
+    "idea" : "Proposta e confronto. Il progetto in questo modo sarà unico, funzionale e facilmente fruibile dagli utenti.",
+    "development" : "Creazione e sviluppo del progetto con tecnologie moderne e verifica della funzionalità del risultato.",
+    "launch" : "Presentazione e revisione del prodotto finito.</br> Consegna del progetto."
+  },
   "form": {
     "sectionTitle": "Contattami",
     "mind" : "Hai un progetto in mente?",
