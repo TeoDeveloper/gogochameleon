@@ -62,15 +62,14 @@ class Navbar extends Component {
                                 {navItem.map((value, index) => this.renderItem(value, index, t))}
                             </ul>
                         </div>
-                        <div>
-                            <a className='d-none d-lg-block text-decoration-none text-18 text-white linkedin-icon'
+                        <div className={'about-linkedin-wrapper'}>
+                            <a className='text-decoration-none text-18 text-white linkedin-icon'
                                style={{marginLeft: '10px'}}
                                target='_blank' href='https://www.linkedin.com/in/matteomarinodev/'
                                rel="noreferrer">
                                 <FontAwesomeIcon icon={faLinkedin} />
                             </a>
                         </div>
-
                         <LanguageSelect/>
                     </div>
                 </nav>
