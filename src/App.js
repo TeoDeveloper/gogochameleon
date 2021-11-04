@@ -3,6 +3,7 @@ import { withTranslation } from 'react-i18next'
 import $ from 'jquery'
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faPaperPlane } from "@fortawesome/free-solid-svg-icons";
+import ReactGA from 'react-ga';
 import logoGGC from './images/gogochameleon-logo.svg';
 import Navbar from "./components/Navbar";
 import Header from "./components/Header";
@@ -15,6 +16,8 @@ import Cookie from "./components/Cookie";
 import GDPRDialog from "./components/GDPRDialog";
 
 let body = $("body");
+ReactGA.initialize('211975885');
+ReactGA.pageview('GoGoChameleon app');
 class App extends Component {
 
     constructor() {
@@ -27,6 +30,8 @@ class App extends Component {
             GDPRDialogOpen: false,
         }
     }
+
+
 
     handleDialogStatus = () => {
         if(this.state.GDPRDialogOpen) {
