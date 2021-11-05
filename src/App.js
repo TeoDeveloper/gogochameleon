@@ -16,7 +16,7 @@ import Cookie from "./components/Cookie";
 import GDPRDialog from "./components/GDPRDialog";
 
 let body = $("body");
-ReactGA.initialize('G-QD3KFLGJ6K');
+ReactGA.initialize('UA-212139568-1');
 ReactGA.pageview('GoGoChameleon app');
 class App extends Component {
 
@@ -30,9 +30,7 @@ class App extends Component {
             GDPRDialogOpen: false,
         }
     }
-
-
-
+    
     handleDialogStatus = () => {
         if(this.state.GDPRDialogOpen) {
             body.removeClass("overflow-hidden");
