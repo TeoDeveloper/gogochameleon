@@ -30,6 +30,7 @@ class Skills extends Component {
                             cta={t(`form.sectionTitle`)}
                             href={'#contactSection'}
                             smootScroll={this.props.smootScroll}
+                            action={'contact button clicked'}
                             hash={'#contactSection'}/>
                 </div>
             </>

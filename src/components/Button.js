@@ -16,7 +16,15 @@ class Button extends Component {
     }
 
     render() {
-        const {description, href, iconType, cta = '! missing cta', type = 'button', onValidation, smootScroll, hash = ''} = this.props;
+        const {description,
+            href,
+            iconType,
+            cta = '! missing cta',
+            type = 'button',
+            onValidation,
+            smootScroll,
+            hash = '',
+            action = ''} = this.props;
         return (
             <>
                 {!!description ?
@@ -25,7 +33,7 @@ class Button extends Component {
                     </div> : '' }
                 <button type={type}
                         className="col-md-12 header-btn-section about-me-section-btn text-center d-flex justify-content-center align-items-center"
-                        onClick={onValidation ? () => onValidation() : e => smootScroll(e, hash)}>
+                        onClick={onValidation ? () => onValidation() : e => smootScroll(e, hash, action)}>
                     <a href={href} className="theme-btn subtheme-btn">
                         {!!iconType ? <FontAwesomeIcon icon={this.renderIcon(iconType)} /> : ''} {cta}
                     </a>

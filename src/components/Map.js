@@ -4,13 +4,20 @@ import { faArrowAltCircleUp, faMapMarker, faPaperPlane } from "@fortawesome/free
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import profile from '../images/get-in-touch-section/profile.png';
 import { useForm } from "react-hook-form";
+import ReactGA from "react-ga";
 
 export default function Map(props) {
-    const { register, formState: { errors, isSubmitSuccessful}, handleSubmit, reset } = useForm();
+    const { register, formState: { errors, isSubmitSuccessful, isSubmitted}, handleSubmit, reset } = useForm();
     const { t } = useTranslation();
 
     useEffect(() => {
         if( isSubmitSuccessful ) reset();
+        if( !!Object.keys(errors).length && isSubmitted ) {
+            ReactGA.event({
+                category: 'Submit button',
+                action: 'form errors'
+            })
+        }
     })
 
     return (

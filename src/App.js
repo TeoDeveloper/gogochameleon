@@ -1,9 +1,9 @@
 import React, { Component } from 'react'
 import { withTranslation } from 'react-i18next'
+import ReactGA from 'react-ga';
 import $ from 'jquery'
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faPaperPlane } from "@fortawesome/free-solid-svg-icons";
-import ReactGA from 'react-ga';
 import logoGGC from './images/gogochameleon-logo.svg';
 import Navbar from "./components/Navbar";
 import Header from "./components/Header";
@@ -17,7 +17,7 @@ import GDPRDialog from "./components/GDPRDialog";
 
 let body = $("body");
 ReactGA.initialize('UA-212139568-1');
-ReactGA.pageview('GoGoChameleon app');
+ReactGA.pageview('gogochameleon.com');
 class App extends Component {
 
     constructor() {
@@ -30,7 +30,7 @@ class App extends Component {
             GDPRDialogOpen: false,
         }
     }
-    
+
     handleDialogStatus = () => {
         if(this.state.GDPRDialogOpen) {
             body.removeClass("overflow-hidden");
@@ -42,6 +42,10 @@ class App extends Component {
 
     onSubmit = ({firstName}, e) => {
         e.preventDefault();
+        ReactGA.event({
+            category: ' Submit button',
+            action: 'form submitted'
+        })
         const message = $('#form').serialize();
         $.ajax({
             url: "https://formspree.io/f/xoqporbb",
@@ -68,7 +72,13 @@ class App extends Component {
         );
     }
 
-    goTo = (e, hash) => {
+    goTo = (e, hash, action = '') => {
+        if (!!action) {
+            ReactGA.event({
+                category: 'Button',
+                action: action
+            })
+        }
         if (hash) {
             e.preventDefault();
             $('html, body').animate({
