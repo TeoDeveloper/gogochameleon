@@ -26,7 +26,7 @@ export default function Map(props) {
         }
     })
 
-    const handleMouseDown = () => {
+    const handlePointerDown = () => {
         ReactGA.event({
             category: 'Email link',
             action: 'Email link clicked'
@@ -65,7 +65,7 @@ export default function Map(props) {
                                     <span className='d-none d-lg-block'>
                                         <span dangerouslySetInnerHTML={{__html: t(`form.form_email`)}}/>
                                         <a className="form-mailto"
-                                           onPointerDown={handleMouseDown}
+                                           onPointerDown={handlePointerDown}
                                            href="mailto:gogochameleonsl@gmail.com"
                                            dangerouslySetInnerHTML={{__html: 'email'}}>
                                         </a>
@@ -74,7 +74,7 @@ export default function Map(props) {
                                     <span className='d-block d-lg-none'>
                                     <span className="d-block d-md-inline mt-2 mt-md-0">
                                         <FontAwesomeIcon className={'color-bgprimary'} icon={faPaperPlane} />&nbsp;
-                                        <a onPointerDown={handleMouseDown}
+                                        <a onPointerDown={handlePointerDown}
                                            href="mailto:gogochameleonsl@gmail.com"
                                            className="text-white hover-primary"
                                            target={"_blank"}
