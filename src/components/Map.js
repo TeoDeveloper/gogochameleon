@@ -11,7 +11,13 @@ export default function Map(props) {
     const { t } = useTranslation();
 
     useEffect(() => {
-        if( isSubmitSuccessful ) reset();
+        if( isSubmitSuccessful ) {
+            ReactGA.event({
+                category: ' Submit button',
+                action: 'form submitted'
+            });
+            reset();
+        }
         if( !!Object.keys(errors).length && isSubmitted ) {
             ReactGA.event({
                 category: 'Submit button',
@@ -19,6 +25,13 @@ export default function Map(props) {
             })
         }
     })
+
+    const handleMouseDown = () => {
+        ReactGA.event({
+            category: 'Email link',
+            action: 'Email link clicked'
+        })
+    }
 
     return (
         <>
@@ -51,7 +64,9 @@ export default function Map(props) {
                                     />&nbsp;&nbsp;&nbsp;*/}
                                     <span className='d-none d-lg-block'>
                                         <span dangerouslySetInnerHTML={{__html: t(`form.form_email`)}}/>
-                                        <a className="form-mailto" href="mailto:gogochameleonsl@gmail.com"
+                                        <a className="form-mailto"
+                                           onPointerDown={handleMouseDown}
+                                           href="mailto:gogochameleonsl@gmail.com"
                                            dangerouslySetInnerHTML={{__html: 'email'}}>
                                         </a>
                                         <span dangerouslySetInnerHTML={{__html: t(`form.send-form`)}}/>
@@ -59,7 +74,8 @@ export default function Map(props) {
                                     <span className='d-block d-lg-none'>
                                     <span className="d-block d-md-inline mt-2 mt-md-0">
                                         <FontAwesomeIcon className={'color-bgprimary'} icon={faPaperPlane} />&nbsp;
-                                        <a href="mailto:gogochameleonsl@gmail.com"
+                                        <a onPointerDown={handleMouseDown}
+                                           href="mailto:gogochameleonsl@gmail.com"
                                            className="text-white hover-primary"
                                            target={"_blank"}
                                            rel="noreferrer"
@@ -68,7 +84,6 @@ export default function Map(props) {
                                     </span></span><br className='d-block d-lg-none'/>
                                 </p>
                             </div>
-                            <p className={'text-white'}>{!!errors}</p>
                             <form id={'form'} onSubmit={handleSubmit(props.onValidate)} noValidate={true}>
                                 <div className="form-group-top d-flex flex-column flex-lg-row">
                                     <div className="col-lg-6 form-group form-field-first d-flex justify-content-center align-items-center text-center">

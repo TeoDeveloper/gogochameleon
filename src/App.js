@@ -42,10 +42,6 @@ class App extends Component {
 
     onSubmit = ({firstName}, e) => {
         e.preventDefault();
-        ReactGA.event({
-            category: ' Submit button',
-            action: 'form submitted'
-        })
         const message = $('#form').serialize();
         $.ajax({
             url: "https://formspree.io/f/xoqporbb",
