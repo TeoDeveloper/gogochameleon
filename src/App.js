@@ -128,7 +128,7 @@ class App extends Component {
                                     <p className="text-12 fw600 color-primary montserrat">
                                         <span dangerouslySetInnerHTML={{__html: 'Proyecto de '}}/>
                                         <img className="logo" src={logoGGC} width="20" alt={'logo_eye'}/>
-                                        <span dangerouslySetInnerHTML={{__html: ' GOGOCHAMELEON SL'}}/>
+                                        <span dangerouslySetInnerHTML={{__html: ' GOGOCHAMELEON SL © 2021'}}/>
                                     </p>
                                 </div>
                             </div>
