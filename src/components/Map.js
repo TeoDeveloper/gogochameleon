@@ -134,7 +134,7 @@ export default function Map(props) {
                                            {...register("newsletterAcceptance")} />
                                     <label style={{marginBottom: 0, cursor: "pointer"}}
                                            className={`text-white text-12`}
-                                           htmlFor="privacyAcceptance">
+                                           htmlFor="newsletterAcceptance">
                                         <span dangerouslySetInnerHTML={{__html: t(`contact.checkNewsletter`)}}/>
                                     </label>
                                 </div>
