@@ -127,6 +127,17 @@ export default function Map(props) {
                                         <span dangerouslySetInnerHTML={{__html: '*'}}/>
                                     </label>
                                 </div>
+                                <div className="d-flex align-items-center mt-2">
+                                    <input type="checkbox"
+                                           style={{cursor: "pointer"}}
+                                           id="newsletterAcceptance"
+                                           {...register("newsletterAcceptance")} />
+                                    <label style={{marginBottom: 0, cursor: "pointer"}}
+                                           className={`text-white text-12`}
+                                           htmlFor="privacyAcceptance">
+                                        <span dangerouslySetInnerHTML={{__html: t(`contact.checkNewsletter`)}}/>
+                                    </label>
+                                </div>
                                 <br/>
                                 <div className="col-md-12 form-group d-flex justify-content-center align-items-center text-center">
                                     <button type="submit"
