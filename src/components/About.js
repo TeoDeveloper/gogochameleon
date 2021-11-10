@@ -14,9 +14,9 @@ export const About = () => {
                 <div className="achievement-card-img-section">
                     <FontAwesomeIcon icon={icon} />
                 </div>
-                <div className="achievement-card-title">
-                    <h3 dangerouslySetInnerHTML={{__html: number}}/>
-                    <p dangerouslySetInnerHTML={{__html: description}}/>
+                <div className="achievement-card-title color-bgprimary">
+                    <h3 className="color-bgprimary" dangerouslySetInnerHTML={{__html: number}}/>
+                    <p className="color-bgprimary" dangerouslySetInnerHTML={{__html: description}}/>
                 </div>
             </div>
         );
