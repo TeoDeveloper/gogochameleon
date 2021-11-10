@@ -47,7 +47,7 @@ class App extends Component {
             url: "https://formspree.io/f/xoqporbb",
             method: "POST",
             data: {
-                message: message
+                message: decodeURIComponent(message)
             },
             dataType: "json"
         });
