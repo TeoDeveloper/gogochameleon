@@ -67,5 +67,8 @@
 
     "ok": "Ok",
     "x": "X"
+  },
+  "privacyPolicy": {
+    "text": "Questa è la pagina Privacy"
   }
 }

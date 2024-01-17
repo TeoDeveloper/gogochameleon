@@ -1,97 +1,74 @@
 {
   "overlay_email" : {
-    "thank_you": "¡Muchas gracias",
+    "thank_you": "¡Muchas gracias ",
     "message_sent": "¡Su mensaje ha sido enviado!"
   },
   "aboutme_details" : {
-    "part1": "[ES] Hi! I am Matteo,",
-    "digital_designer_from": " digital designer since 2009",
-    "part2": ", creative, detail-oriented and founder of ",
-    "part3": ", an agency born with the aim of helping my clients to promote their ideas towards visible and user-friendly digital contents.",
-    "part4": "We use cutting edge technology together with creative thought and media knowledge.",
-    "about_working": "[ES] What is it like working with me?"
+    "part1": "¡Chau! Soy Matteo,",
+    "digital_designer_from": " diseñador digital desde 2009",
+    "part2": ", creativo, perfeccionista y fundador de ",
+    "part3": ", una realidad nacida con el objetivo de ayudar a mis clientes a promover sus ideas a través de contenido digital que sea visible y fácilmente reconocible por sus usuarios.",
+    "part4": "Utilizamos las tecnologías web más actuales, integrándolas con el pensamiento creativo y el conocimiento de los medios.",
+    "about_working": "¿Cómo es trabajar conmigo?"
   },
   "menu": {
-    "aboutSection": "[ES] About me",
-    "skillsSection": "[ES] What I do",
-    "experienceSection": "[ES] How I work",
-    "workSection": "[ES] Gallery",
-    "reviewsSection": "[ES] Reviews",
-    "contactSection": "[ES] Contact"
+    "aboutSection": "Sobre mí",
+    "skillsSection": "Lo que hago",
+    "experienceSection": "Como trabajo",
+    "workSection": "Gallery",
+    "reviewsSection": "Brand Experience",
+    "contactSection": "Contactos"
   },
   "skillsSection": {
-    "skillsTitle" : "[ES] What I do",
-    "worksTitle" : "[ES] How I work"
+    "skillsTitle" : "Lo que hago",
+    "worksTitle" : "Como trabajo"
+  },
+  "worksSection": {
+    "study" : "Análisis detallado de negocios y objetivos para estructurar una estrategia digital hecha a medida.",
+    "idea" : "Propuesta y discusión. De esta manera, el proyecto será único, funcional y simplemente utilizable.",
+    "development" : "Creación de proyectos, desarrollo web y diseño con tecnologías modernas y verificación de habilidades funcionales.",
+    "launch" : "Presentación y revisión del proyecto final. <br class='d-none d-lg-block'/> Lanzamiento del proyecto."
   },
   "form": {
-    "sectionTitle": "[ES] Get in Contact",
-    "mind" : "[ES] Have a project in mind?",
-    "form_email" : "[ES] Write below or send me an",
+    "sectionTitle": "Ponerse en contacto",
+    "mind" : "¿Estás pensando en un nuevo proyecto?",
+    "send-form" : " o rellena el formulario",
+    "form_email" : "Escribe a continuación o envíame un",
     "placeholder": {
-      "firstName": "[ES] Name*",
-      "email": "[ES] Email*",
-      "subject": "[ES] Subject",
-      "message": "[ES] Message*"
+      "firstName": "Nombre*",
+      "email": "Correo electrónico*",
+      "subject": "Sujeta",
+      "message": "Mensaje*"
     },
     "error": {
-      "name": "[ES] Name is required",
-      "email": "[ES] Email is required",
-      "message": "[ES] Message is required"
+      "name": "Nombre es requerido",
+      "email": "Correo electronico es requerido",
+      "message": "Mensaje es requerido"
     },
-    "sendLabel": "[ES] submit message"
+    "sendLabel": "enviar mensaje"
+  },
+  "contact": {
+    "address": " Gran Canaria, España",
+    "mail": "gogochameleonsl@gmail.com",
+    "checkPolicy": "&nbsp;&nbsp;He leído la&nbsp;",
+    "checkNewsletter": "&nbsp;&nbsp;\nAcepto recibir comunicaciones de marketing",
+    "policy": "Política de privacidad"
   },
   "GDPR": {
-    "gdprTitle": "[ES] Cookie Policy",
-    "cookies": "[ES] What Are Cookies?",
-    "cookiesDescription": "[ES] Cookies are small pieces of data (memory files) stored on your computer or device via your browser by sites you visit. As is common practice with almost all websites, this site uses cookies to improve your experience by remembering your preferences and enable other cookie-based features (e.g. analytics), either for a single visit (through a 'session cookie') or for multiple repeat visits (using a 'persistent cookie').",
-    "ourCookies": "[ES] Our Cookies",
-    "purposes": {
-      "line1": "[ES] We use cookies for a number of different purposes.",
-      "line2": "[ES] If you submit data through a form such as those found on contact pages, comment forms, or blog subscription, cookies may be set to remember your user details for future correspondence.",
-      "line3": "[ES] If you submit information through a live chat widget, cookies may be set to remember your user detail so you can continue a conversation the next time you return to the site.",
-      "line4": "[ES] If you purchase items via ecommerce, cookies may be set to allow you to add products to your basket, display the correct page for the device you are using, verify your details when you make an order, and allow us to process payment for an order."
-    },
-    "thirdParty": {
-      "line1": "[ES] Third-Party Cookies",
-      "line2": "[ES] In special cases, we also use cookies provided by trusted third parties like Google Analytics. Third party analytics are used to track and measure usage of this site so that we can continue to produce engaging content."
-    },
-    "managing": {
-      "line1": "[ES] Managing Cookies",
-      "line2": "[ES] When you first access the site, you may receive a message advising you that cookies and similar technologies are in use. By clicking 'accept all', you signify that you understand and agree to the use of these technologies, as described in this Cookie Policy. By clicking 'settings', you can choose to accept or reject specific cookies."
-    },
-    "consent": "[ES] You may withdraw consent at any time. Most browsers allow you to refuse to accept cookies. You can also remove cookies from your browser settings. Be aware that disabling cookies may affect the functionality of this and many other websites you visit. Therefore, it is recommended that you do not disable cookies.",
-    "linkInfo": "[ES] Please see the following links for information on how to manage, block, or delete cookies for the most popular browsers:",
-    "browserList": {
-      "edgeIE": {
-        "title": "[ES] Microsoft Internet Explorer:",
-        "description": "[ES] https://support.microsoft.com/en-gb/help/17442/windows-internet-explorer-delete-manage-cookies"
-      },
-      "Chrome": {
-        "title": "[ES] Google Chrome:",
-        "description": "[ES] https://support.google.com/chrome/answer/95647?co=GENIE.Platform%3DDesktop&hl=en"
-      },
-      "Mozilla": {
-        "title": "[ES] Mozilla Firefox:",
-        "description": "[ES] https://support.mozilla.org/en-US/kb/enable-and-disable-cookies-website-preferences"
-      },
-      "Safari": {
-        "title": "[ES] Apple Safari:",
-        "description": "[ES] https://support.apple.com/en-gb/guide/safari/sfri11471/mac"
-      }
-    },
-    "moreInformation": {
-      "description": "[ES] To find out more on how to manage and delete cookies, visit aboutcookies.org. For more details on your choices regarding use of your web browsing activity for interest-based advertising you may visit the following sites:",
-      "siteList": {
-        "one": "[ES] networkadvertising.org",
-        "two": "[ES] optout.aboutads.info",
-        "three": "[ES] youradchoices.com",
-        "four": "[ES] youronlinechoices.eu"
-      }
-    },
-    "general": {
-      "title": "[ES] General",
-      "line1": "[ES] We may edit this policy from time to time. Please check this policy regularly for any changes. Our site is hosted on Strikingly Inc. They provide us with the website template that allows us to build your own website.",
-      "line2": "[ES] Cookies are one way we comply with GDPR guidelines. To learn more about Strikingly, the following links may be helpful: Youtube Facebook Twitter SXL"
-    }
+    "cookiePolicy": "Política de cookies.",
+    "privacyPolicy": "Política de privacidad",
+    "and": "&nbsp;y la&nbsp;",
+    "respect": "&nbsp;Respeta tu privacidad. <br/> Puedes ver la nuestra<br/>",
+    "gdprPrivacy": "<span class='color-primary montserrat fw600'>GoGoChameleon</span><br class='d-block d-md-none'/> ‣ Privacy Policy",
+    "gdprCookie": "<span class='color-primary montserrat fw600'>GoGoChameleon</span><br class='d-block d-md-none'/> ‣ Cookie Policy",
+
+    "privacy": "This Privacy Policy has been written according to the 2016/679, art.13, EU General Data Protection Regulation\n((herefore: <b>“Regulation”</b>) in order to let you know you our privacy policy, to understand how personal informations are managed when visiting our website (<b>www.gogochameleon.com</b>, herefore <b>“Website”</b>) ) and to give informed consent to personal data treatment. Informations and data retrieved by us using Gogochameleon's services ((herefore <b>“Services”</b>) ), will be managed according to the Regulations's policies and to the principle of confidentiality upon which our company is based. Follwing the Regulation's policy, personal data management will be based on principles of lawfullness, transparency, data minimizations, accuracy, integrity and confidentiality.<br/><br/>\n<b>1) Who is the data controller of your personal data?</b><br/>\nThe Data controller of your data is the company <b>GOGOCHAMELEON\nSL</b> (herefore: <b>“data controller”</b>), based in Av. Touroperador Air Marín, 1, 35100 Maspalomas, Las Palmas. For any information required regarding personal data treatment please write to gogochameleonsl@gmail.com.<br/><br/>\n<b>2) What do we mean for personal data and which data we manage?</b><br/>\n\"personal data\" is any information that can identify, directly or indirectly, a subject, in this case the user of our website. Particularly, we collect personal data necessary to provide our services, particularly surfing data, demogrphic and identification (name, surname, email, controlling company, working title) contact data (telephone number, email) and contact forma related data.\nMoreover we collect data with cookies. Cookies are small data files collected when we access to a website or parts of it. Cookies grant us the working of our website and to generate anonymous informations and statistics. It is possible to refuse cookies collection setting the appropriate option on your browser, but this could limit our website's function. To receive more informations regarding our use of cookies, we invite you to consult our cookies poolicy. <br/><br/>\n<b>3) Why manage your personal data?</b><br/>\nForemost, we collect and manage you personal data that are strictly necessary to satisfy your needs and the services required. Particularly: a) following assistancy, informations or quotation requests via our \"Contact us\" section. b) to send commercial informations regarding our services in the case you expressed consent for it c) to comply with obligations given by the local and national law. In any case we grant you that collected and used informations are appropriate for the aims written upon and that this will not condition you person.<br/><br/>\n<b>4) Which is the lawfullness of treating your personal data?</b><br/>\nPersonal data lawfullness of the sections 3a and b is the article 61b since data management are necessary to the delivery of our services and to satisfy related reqeusts. Particularly , personal data provision is voluntary, but an eventual refusal would make it impossible to  deliver website's services or related requests. In the case you expressed informed consent to receive commercial communications, the lawfullness will be granted also by the consent itself, following the Regulation 6790/2015, article 1a. If you would not be interested anymore in receiving such communications, you can write to gogochameleonsl@gmail.com<br/><br/>\n<b>5) How do we manage your personal data?</b><br/>\nPersonal data will be managed both through manual elaboration or electronic/automated tools, with aims strictly related to the use pre-specficied or, eventually, to grant you safety and confidentiality of Your Personal data (with particular carefullness regarding any tecnique of remote communications).<br/><br/>\n<b>6) Who we communicate your data to?</b><br/>\nYour personal data could be shared, with the aims specified in section 4 above with:<br/>\n• subjects who typically act as external data processors after our appointment, namely: i) persons, companies or professional firms that provide assistance and consultancy in accounting, administrative, legal, tax, financial and credit recovery matters relating to provision of the Services; ii) subjects with whom it is necessary to interact for the provision of the Services (for example hosting providers or banking institutions) iii) or subjects delegated to carry out technical maintenance activities (including maintenance of network equipment and communication networks electronics);<br/>\n• subjects, bodies or authorities to whom it is mandatory to communicate your personal data by virtue of legal provisions or orders of the authorities;\n• partners who collaborate with gogochameleons for the design, creation and implementation of services;<br/>\n• authorized persons authorized to process Personal Data, necessary to carry out activities strictly related to the provision of the Services, who are committed to confidentiality or have an adequate legal obligation of confidentiality (eg collaborators of the Data Controller).<br/><br/>\n<b>7) Where do we transfer your data?</b><br/>\nWe do not normally transfer your data outside the European Union. Should this happen, we make sure that the recipient complies with the Regulation's policies including rules specifically dictated for the transfer of personal data to third countries. In particular, we guarantee that transfers take place on the basis of an adequacy decision or on the basis of the signing by the ((???))) of data protection clauses approved by the European Commission.<br/><br/>\n<b>8) How long do we keep personal data?</b><br/>\nWe keep personal data only for the time strictly necessary to carry out the data processing for the purposes mentioned above. For the fulfillment of legal obligations, your data will be processed and stored as long as the need for processing persists to comply with these legal obligations.<br/><br/>\n<b>9) What are your rights?</b><br/>\n• Access: you have the right to obtain confirmation regarding the existence of a processing concerning your data as well as the right to receive any information relating to the same processing.<br/>\n• Rectification: you have the right to obtain the rectification of your data, if they are incomplete or inaccurate.<br/>\n• Cancellation (so-called \"right to be forgotten\"): in certain circumstances, you have the right to obtain the cancellation of your data in our archives if not relevant to the continuation of the contractual relationship or required by law.<br/>\n• Management limitation: upon the occurrence of certain conditions, you have the right to obtain the limitation of data management, if this is not relevant for the continuation of the contractual relationship or required by law.<br/>\n• Right to portability: you have the right to obtain the transfer of your data in favor of a different owner<br/>\n• Opposition: you have the right to object, at any time for reasons connected with your particular situation, to the processing of data concerning you based on the condition of lawfulness of the legitimate interest or the execution of a task of public interest or the exercise of public authorities, including profiling.<br/>\n• Withdrawal of consent: you have the right to withdraw consent to the processing of your data at any time, without prejudice to the lawfulness of the processing based on consent before the withdrawal. Requests for the exercise of privacy rights must be sent in writing to the following address: gogochameleonsl@gmail.com. The exercise of your rights as an interested party is free of charge pursuant to Article 12 of the Regulations. In any case, you always have the right to lodge a complaint with the competent Supervisory Authority for the Protection of Personal Data), pursuant to art. 77 of the Regulation, if you believe that the processing of your Personal Data is opposed to the acting policies. <br/><br/>\n<b>10) How long does this privacy policy apply?</b><br/>\nThis privacy policy is effective from 19.10.2021. We reserve the right to modify or simply update its content, in part or completely, also due to changes in the acting legislation. We invite you to regularly visit this section to become aware of the most recent and updated version of the privacy policy.",
+    "cookie": "<b>What are cookies</b><br/>\nCookie is a small text file containing a certain amount of information exchanged between a website and your terminal (usually the browser) and is normally used by the website manager to store the information used to improve navigation within the site or to send advertising, in line with the preferences expressed by the user in the context of surfing the net. When you visit the same site again or any other site, the user's device checks for the presence of a recognized cookie, in order to be able to read the information contained therein. The different cookies contain different information and are used for different purposes (efficient navigation on the pages of the same site, profiling in order to send targeted promotional messages, analysis on the number of visits to the site).<br/><br/>\nDuring website  navigation, the user can also receive on his terminal cookies sent from different websites or web servers (so-called <b>third parties</b>), on which some elements may reside (e.g. images, maps, sounds, specific links to pages of others domains) present on the site that the user is visiting.<br/><br/>\nGenerally, some cookies (called session cookies) are assigned to the user's device only for the duration of access to the site and automatically expire when the browser is closed. Other cookies (defined as persistent) remain on the device for an extended period of time.<br/><br/>\n<b>Which cookies do we use</b><br/>\n<b>GoGoChameleon</b> uses only Analytical Cookies on this site. These are third-party cookies used for statistical analysis, to improve the site, simplify its use and monitor its correct functioning. This type of cookie collects anonymous information on user activity on the site. This type of cookie is provided exclusively by third parties.<br/><br/>\nTo carry out the mentioned activities, we use <b>Google Analytics</b>. These cookies are usually named \"__utmX\" or \"__ga\". For more information on the privacy policies and Google Analytics options, please visit: <a class='color-primary text-decoration-none' target='_blank' href='https://www.youronlinechoices.com/it/' rel=\"noreferrer\">www.google.com/analytics/learn/privacy</a><br/><br/>\n<b>How long do we save cookies</b><br/>\nCookies are normally saved for a maximum of 180 days.<br/><br/>\n<b>Disabling cookies</b><br/>\nFor information and to disable third-party analytical cookies go to the site:\n<a class='color-primary text-decoration-none' target='_blank' href='https://marketingplatform.google.com/about/' rel=\"noreferrer\">marketingplatform.google.com/about</a><br/><br/>\n<b>How to give or withdraw consent</b><br/>\nThe consent to the use of cookies is initially given through the following methods: by closing the banner, scrolling the page hosting the banner or clicking any of its elements, and can be revoked at any time as indicated above.\nOptions regarding the use of cookies by the site through the browser settings\nThe provision of all cookies, both first and third parties, can be deactivated by changing the settings of the browser in use; It should be noted, however, that this could make the sites unusable if the cookies essential for the provision of functionality are blocked. Each browser has different settings for disabling cookies; Below we offer links to instructions for the most common browsers.<br/>\n• <span class='color-primary'>Microsoft Edge</span><br/>\n• <span class='color-primary'>Google Chrome</span><br/>\n• <span class='color-primary'>Apple Safari</span><br/>\n• <span class='color-primary'>Mozilla Firefox</span><br/>\n• <span class='color-primary'>Opera</span><br/><br/>\n<b>Further information on the processing of personal data carried out on the site.</b><br/>\nFor further information on the processing of personal data collected on this site carried out by <span class='color-primary montserrat fw600'>GoGoChamaleon</span> consult the Privacy Policy.",
+
+    "ok": "Vale",
+    "x": "X"
+  },
+  "privacyPolicy": {
+    "text": "[ES] Questa è la pagina Privacy"
   }
 }
