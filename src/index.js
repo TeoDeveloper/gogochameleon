@@ -34,7 +34,7 @@ ReactDOM.render(
         <Router>
           <Routes>
             <Route path="/" exact element={<App />} />
-            <Route path="/privacy-policy" element={<Privacidad />} />
+            <Route path={`${process.env.PUBLIC_URL}/privacy-policy`} element={<Privacidad />} />
           </Routes>
         </Router>
       </Suspense>
