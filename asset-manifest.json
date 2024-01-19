@@ -1,0 +1,39 @@
+{
+  "files": {
+    "main.css": "/static/css/main.7624dc35.chunk.css",
+    "main.js": "/static/js/main.a298da2c.chunk.js",
+    "runtime-main.js": "/static/js/runtime-main.5ceede39.js",
+    "static/css/2.8d557642.chunk.css": "/static/css/2.8d557642.chunk.css",
+    "static/js/2.a828ce56.chunk.js": "/static/js/2.a828ce56.chunk.js",
+    "static/js/3.f3d611a3.chunk.js": "/static/js/3.f3d611a3.chunk.js",
+    "index.html": "/index.html",
+    "static/js/2.a828ce56.chunk.js.LICENSE.txt": "/static/js/2.a828ce56.chunk.js.LICENSE.txt",
+    "static/media/LanguageSelect.css": "/static/media/arrow-down.66c28873.svg",
+    "static/media/bacardi.46316346.svg": "/static/media/bacardi.46316346.svg",
+    "static/media/index.css": "/static/media/bg-pattern2.357e4412.svg",
+    "static/media/bombay.ff1c16bb.svg": "/static/media/bombay.ff1c16bb.svg",
+    "static/media/citroen.a7f1534a.svg": "/static/media/citroen.a7f1534a.svg",
+    "static/media/db.b450a536.svg": "/static/media/db.b450a536.svg",
+    "static/media/getFetch.cjs": "/static/media/getFetch.5fde86e3.cjs",
+    "static/media/gogochameleon-logo.973be9de.svg": "/static/media/gogochameleon-logo.973be9de.svg",
+    "static/media/ici.d42a7cd4.svg": "/static/media/ici.d42a7cd4.svg",
+    "static/media/img_aboutme.84bdcccd.png": "/static/media/img_aboutme.84bdcccd.png",
+    "static/media/kv.b51d605c.svg": "/static/media/kv.b51d605c.svg",
+    "static/media/lm.6264a999.svg": "/static/media/lm.6264a999.svg",
+    "static/media/logoEye.398f7335.svg": "/static/media/logoEye.398f7335.svg",
+    "static/media/martini.55ff8280.svg": "/static/media/martini.55ff8280.svg",
+    "static/media/mrn.685cdc51.svg": "/static/media/mrn.685cdc51.svg",
+    "static/media/oceanomare.33a9af71.svg": "/static/media/oceanomare.33a9af71.svg",
+    "static/media/peugeot.ddf2eb63.svg": "/static/media/peugeot.ddf2eb63.svg",
+    "static/media/pupil.41e63314.svg": "/static/media/pupil.41e63314.svg",
+    "static/media/stba.dd4caaaf.svg": "/static/media/stba.dd4caaaf.svg",
+    "static/media/unieuro.6e02383f.svg": "/static/media/unieuro.6e02383f.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.5ceede39.js",
+    "static/css/2.8d557642.chunk.css",
+    "static/js/2.a828ce56.chunk.js",
+    "static/css/main.7624dc35.chunk.css",
+    "static/js/main.a298da2c.chunk.js"
+  ]
+}
